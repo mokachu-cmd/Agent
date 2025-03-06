@@ -46,6 +46,10 @@ def load_config(config_file: str = 'config.json') -> Dict[str, Any]:
         'agent_loop_delay': 0.1,
         'awake_duration': 80,
         'sleep_duration': 20,
+        'ethical_framework': {
+            'framework_name': 'default_framework',
+            'parameters': {}
+        }
     }
     
     # Load configuration from file if it exists
